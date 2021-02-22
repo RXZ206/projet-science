@@ -104,11 +104,12 @@ p {
 }
 
 .img {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     object-fit: cover;
     min-width: 70%;
     max-width: 100%;
     height: auto;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.411);
 }
 
 @media only screen and (max-device-width: 1366px) {
