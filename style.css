@@ -104,3 +104,9 @@ p {
     margin-bottom: 10px;
     object-fit: cover;
 }
+
+@media only screen and (max-device-width: 1366px) {
+    .title, .text-image {
+      background-attachment: scroll;
+    }
+  }
