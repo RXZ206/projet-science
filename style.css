@@ -2,10 +2,12 @@
 html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    height: 100%;
 }
 
 .navbar-brand {
@@ -30,7 +32,7 @@ nav {
 .title {
     position: relative;
     display: flex;
-    height: 400px;
+    height: 50%;
     align-items: center;
     background-image: url(images/title.jpg);
     background-position: center;
@@ -76,7 +78,7 @@ p {
 .text-image {
     position: relative;
     background-image: url(images/text.png);
-    min-height: 500px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,4 +102,5 @@ p {
 
 .img {
     margin-bottom: 10px;
+    object-fit: cover;
 }
