@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+nav {
+    height: 100px;
+    z-index: 10;
+}
+
+.fas {
+    color: lightgray;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+/* title */
+.title {
+    position: relative;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    background-image: url(images/title.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title-box {
+    width: 300px;
+    height: 51%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-text {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+}
+
+/* Text area */
+.text-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.text-box {
+    padding-left: 10px;
+    display: flex;
+    align-content: stretch;
+}
+
+p {
+    font-size: 20px;
+}
+
+.text-image {
+    position: relative;
+    background-image: url(images/text.png);
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.observatoire {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.observatoire-div {
+    padding-right: 30px;
+}
+
+.img-div {
+    padding-top: 15px;
+}
+
+.img {
+    margin-bottom: 10px;
+}
