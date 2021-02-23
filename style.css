@@ -106,8 +106,9 @@ p {
 
 .img {
     margin-bottom: 30px;
-    height: 20%;
+    height: 425px;
 }
+
 
 /* @media only screen and (max-device-width: 1366px) {
     .title, .text-image {
