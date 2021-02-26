@@ -77,7 +77,27 @@
             </div>
         </div>
 
-        <div class="img-box"><img src="images/arbre.jpg" alt="" class="arbre-img"></div>
+        <div class="img-box loup-box">
+            <img src="images/arbre.jpg" alt="" class="arbre-img" />
+            <div
+                class="card rounded-0 border-primary border-3"
+                style="width: 50%; height: 100%"
+            >
+                <img src="images/loup.jpg" class="card-img-top loup-img" alt="" />
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">Loup</h3>
+                    <ul>
+                        <li><p class="card-text lh-lg">Règne: animale</p></li>
+                        <li><p class="card-text lh-lg">Embranchement: Cordés</p></li>
+                        <li><p class="card-text lh-lg">Classe: Mammifère</p></li>
+                        <li><p class="card-text lh-lg">Ordre: Carnivore</p></li>
+                        <li><p class="card-text lh-lg">Famille: Canidés</p></li>
+                        <li><p class="card-text lh-lg">Genre: Canis</p></li>
+                        <li><p class="card-text lh-lg">Espèce: Canis Lupus</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <footer>
             <h2>Ruixi Zhang, Émile Drainville</h2>
@@ -93,13 +113,5 @@
             integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
             crossorigin="anonymous"
         ></script>
-        <script>
-            window.addEventListener("scroll", function () {
-                const item = document.querySelector(".title-img");
-                let scroll_position = window.pageYOffset;
-                item.style.transform =
-                    "translateY(" + scroll_position * 0.5 + "px)";
-            });
-        </script>
     </body>
 </html>

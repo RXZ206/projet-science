@@ -14,6 +14,10 @@ img {
     object-fit: cover;
 }
 
+ul {
+    list-style-type: none;
+  }
+
 .navbar-brand {
     font-size: 30px;
 }
@@ -119,13 +123,20 @@ footer {
 }
 
 /* Faune et Flore */
-
 .img-box {
     position: relative;
-    height: 80%;
     display: flex;
     align-items: center;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
 .arbre-img {
-    width: 20%;
+    width: 50%;
+    height: 100%;
+}
+
+.loup-img {
+    height: 50%;
 }
