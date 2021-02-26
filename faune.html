@@ -71,7 +71,7 @@
         </nav>
 
         <div class="title">
-            <img src="images/title.jpg" class="title-img" />
+            <img src="images/faune-title.jpg" class="faune-img" />
             <div class="title-box bg-dark">
                 <h1 class="title-text">Faune et Flore</h1>
             </div>
@@ -83,17 +83,25 @@
                 class="card rounded-0 border-primary border-3"
                 style="width: 50%; height: 100%"
             >
-                <img src="images/loup.jpg" class="card-img-top loup-img" alt="" />
+                <img
+                    src="images/loup.jpg"
+                    class="card-img-top loup-img"
+                    alt=""
+                />
                 <div class="card-body">
                     <h3 class="card-title fw-bold">Loup</h3>
                     <ul>
                         <li><p class="card-text lh-lg">Règne: animale</p></li>
-                        <li><p class="card-text lh-lg">Embranchement: Cordés</p></li>
-                        <li><p class="card-text lh-lg">Classe: Mammifère</p></li>
+                        <li>
+                            <p class="card-text lh-lg">Embranchement: Cordés</p>
+                        </li>
+                        <li>
+                            <p class="card-text lh-lg">Classe: Mammifère</p>
+                        </li>
                         <li><p class="card-text lh-lg">Ordre: Carnivore</p></li>
                         <li><p class="card-text lh-lg">Famille: Canidés</p></li>
                         <li><p class="card-text lh-lg">Genre: Canis</p></li>
-                        <li><p class="card-text lh-lg">Espèce: Canis Lupus</p></li>
+                        <li><p class="card-text">Espèce: Canis Lupus</p></li>
                     </ul>
                 </div>
             </div>
@@ -113,5 +121,13 @@
             integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
             crossorigin="anonymous"
         ></script>
+        <script>
+            window.addEventListener("scroll", function () {
+                const item = document.querySelector(".faune-img");
+                let scroll_position = window.pageYOffset;
+                item.style.transform =
+                    "translateY(" + scroll_position * 0.5 + "px)";
+            });
+        </script>
     </body>
 </html>
