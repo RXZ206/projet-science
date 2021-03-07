@@ -8,6 +8,7 @@ body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     height: 100%;
+    overflow-x: hidden;
 }
 
 img {
@@ -125,9 +126,6 @@ footer {
 /* Faune et Flore */
 .img-box {
     position: relative;
-    display: flex;
-    align-items: center;
-    height: 120%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -137,11 +135,19 @@ footer {
     height: 100%;
 } 
 
-.arbre-img {
-    width: 50%;
-    height: 100%;
-}
 
 .loup-img {
     height: 50%;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.item img {
+    width: 100%;
 }
