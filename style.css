@@ -151,3 +151,7 @@ footer {
 .item img {
     width: 100%;
 }
+
+.roches div {
+    margin: 0, auto;
+}
