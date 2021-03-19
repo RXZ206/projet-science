@@ -163,3 +163,7 @@ footer {
     height: 30%;
     margin-bottom: 30px;
 }
+
+.carousel-img {
+    height: 500px;
+}
